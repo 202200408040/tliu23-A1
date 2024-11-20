@@ -7,12 +7,12 @@ public class AssignmentOne {
         // Part 3 – Using classes and objects
         System.out.println("Part 3 - Creating Health Professional Objects:");
 
-        // Create General Practitioners
+        // Create General Practitioners，which includes id,name,basicinfo and speciality
         GeneralPractitioner gp1 = new GeneralPractitioner(1, "Dr. Alice", "Experienced in general health care", "Family Medicine");
         GeneralPractitioner gp2 = new GeneralPractitioner(2, "Dr. Bob", "Specializes in adult medicine", "Internal Medicine");
         GeneralPractitioner gp3 = new GeneralPractitioner(3, "Dr. Charlie", "Expert in children's health", "Pediatrics");
 
-        // Create Other Health Professionals
+        // Create Other Health Professionals,which includes id,name,basicIndo and field
         OtherHealthProfessional ohp1 = new OtherHealthProfessional(4, "Dr. Diana", "Specializes in surgery", "Surgical Procedures");
         OtherHealthProfessional ohp2 = new OtherHealthProfessional(5, "Dr. Ethan", "Expert in orthopedic medicine", "Orthopedics");
 
@@ -34,7 +34,7 @@ public class AssignmentOne {
         // Create an ArrayList to store appointments
         ArrayList<Appointment> appointments = new ArrayList<>();
 
-        // Create appointments
+        // Create appointments,which includes name,mobile and timeslot
         createAppointment(appointments, "John Doe", "1234567890", "08:00", gp1);
         createAppointment(appointments, "Jane Smith", "0987654321", "10:00", ohp2);
 
